@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/10ad81aec9.js" crossorigin="anonymous"></script>
     <!-- custom style -->
     <script>
         tailwind.config = {
@@ -28,6 +30,10 @@
         .font-manrope{
             font-family: 'Manrope', sans-serif;
         }
+       .small{
+        display: none;
+       }
+        
       </style>
 </head>
 <body class="font-manrope">
@@ -52,7 +58,7 @@
                   <a class="btn btn-ghost text-2xl ml- lg:text-6xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 lg:text-2xl">
+                  <ul class="menu menu-horizontal px-1  lg:text-2xl">
                     <li><a class="text-primary">Home</a></li>
                     <li><a class="text-[#424247]">About</a></li>
                     <li><a class="text-[#424247]">Pages</a></li>
@@ -61,6 +67,9 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
+                
+                        <i class="fa-solid fa-magnifying-glass lg:mr-5 lg:text-[#89898B] lg:block small   "></i>
+                
                   <a class="btn bg-primary lg:px-6 text-white text-1xl lg:font-bold">Get Ticket</a>
                 </div>
               </div>
